@@ -8,11 +8,7 @@ const App = () => {
   }, [date])
   const setTheMessage = (day) => {
     return () ? "Hey Mango Monday" :
-      () ? "Hey Tomato Tuesday" :
-        () ? "Hey Windy Wednesday" :
-          () ? "Hey Thunder Thusday" :
-            () ? "Hey Fun Friday" :
-              () ? "Hey Smooth Saturday" : "Hey Sugar Sunday"
+     
 
   }
   const msg = setTheMessage(day)
